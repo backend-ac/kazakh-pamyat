@@ -152,9 +152,9 @@
                                     {{ $participant->date_of_death ?? 'Неизвестно' }}
                                 </div>
 
-                                <div class="dead__item-place">
-                                    {{ $participant->where_did_participate ?? 'Информация уточняется' }}
-                                </div>
+{{--                                <div class="dead__item-place">--}}
+{{--                                    {{ $participant->where_did_participate ?? 'Информация уточняется' }}--}}
+{{--                                </div>--}}
 
                                 <a
                                     href="{{ route('participant.show', $participant->id) }}"
