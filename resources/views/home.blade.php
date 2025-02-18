@@ -113,7 +113,12 @@
             <div class="preview__images">
                 @foreach($main as $image)
                     <div class="preview__image">
-                        <img src="{{asset('storage/' . $image -> photo)}}" alt="{{$image -> name}}"/>
+                        <img
+                            src="{{ $image->photo
+                                    ? asset('storage/'.$image->photo)
+                                    : asset('img/soldier-2.jpg') }}"
+                            alt="{{ $image->name }}"
+                        />
                     </div>
                 @endforeach
 
