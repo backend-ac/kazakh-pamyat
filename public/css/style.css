@@ -974,7 +974,7 @@ select {
 }
 
 .feedback {
-  background: url("../img/feedback.png") center/cover no-repeat;
+  background: url("../img/form-bg.jpg") center/cover no-repeat;
   background-color: #03a9f4;
 }
 

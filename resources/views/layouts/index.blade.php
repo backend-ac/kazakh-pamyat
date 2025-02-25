@@ -10,7 +10,7 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.css?_v=20250127180612"
     />
-    <link rel="stylesheet" href="{{asset('css/style.css?_v=2.11')}}" />
+    <link rel="stylesheet" href="{{asset('css/style.css?_v=2.12')}}" />
 </head>
 <body>
 @include('layouts.header')
