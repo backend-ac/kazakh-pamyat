@@ -438,7 +438,7 @@ select {
   width: 80px;
   height: 70px;
   flex-shrink: 0;
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
 
 .header__logo img {
