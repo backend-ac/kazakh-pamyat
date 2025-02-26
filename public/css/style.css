@@ -448,6 +448,11 @@ select {
      object-fit: contain;
 }
 
+.header__nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header__nav-list {
   display: flex;
   align-items: center;
@@ -1710,6 +1715,7 @@ select {
     top: 100%;
     padding-top: 100px;
     display: none;
+    margin: 0;
   }
 
   .header__nav.active {

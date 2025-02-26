@@ -20,9 +20,9 @@
                             >Участники войны</a
                             >
                         </li>
-                        <li class="header__nav-item">
+                        <!-- <li class="header__nav-item">
                             <a href="/history" class="header__nav-link {{ request()->routeIs('history') ? 'active' : '' }}">Ваши истории</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
                 <div class="burger" id="menu-icon">
