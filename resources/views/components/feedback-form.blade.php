@@ -3,7 +3,7 @@
         <div class="feedback__container content">
             <h2 class="feedback__title title">Оставьте свою историю</h2>
             <h3 class="feedback__subtitle">
-                Форма для приноса новых данных о погибших и исправления ошибок
+                Форма для занесения новых данных о погибших и исправления ошибок
             </h3>
             <form action="{{ route('stories.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
